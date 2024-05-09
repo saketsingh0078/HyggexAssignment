@@ -1,0 +1,24 @@
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  transform: rotate(180deg); /* Rotates the caret to point downwards */
+}
+
+details[open] .arrow {
+  transform: rotate(0deg); /* Returns the caret to the original upward position when details are open */
+}
+
+.gradient-text {
+  font-size: 48px; /* Set the size as per your requirement */
+  background: linear-gradient(to right, #06286E 0%, #164EC0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
