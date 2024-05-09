@@ -5,4 +5,4 @@ This is Created Using React and Tailwind CSS from figma.
 - npm run dev
 
 how the website look :
-<img src="
+<img src="https://github.com/saketsingh0078/HyggexAssignment/blob/main/src/image/img.png"/>
